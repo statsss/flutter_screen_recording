@@ -19,4 +19,5 @@ class FlutterScreenRecording {
     final String path = await _channel.invokeMethod('stopRecordScreen');
     return path;
   }
+  ///
 }
